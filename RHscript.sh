@@ -49,7 +49,7 @@ cp -r echotrail /opt/so/saltstack/local/salt/sensoroni/files/analyzers/echotrail
 cp -r elasticsearch /opt/so/saltstack/default/salt/sensoroni/files/analyzers/elasticsearch
 cp -r elasticsearch /opt/so/saltstack/local/salt/sensoroni/files/analyzers/elasticsearch
 
-so-sensoroni restart
+so-sensoroni-restart
 
 
 
