@@ -11,13 +11,13 @@ rm -rf /home/admin/securityonion/salt/sensoroni/files/analyzers/echotrail/source
 rm -rf /home/admin/securityonion/salt/sensoroni/files/analyzers/elasticsearch/source-packages
 
 #install source-packages
-cd salt/sensoroni/files/analyzers/threatfox
+cd /home/admin/securityonion/salt/sensoroni/files/analyzers/threatfox
 pip download -r requirements.txt -d source-packages
-cd salt/sensoroni/files/analyzers/malwarebazaar
+cd /home/admin/securityonion/salt/sensoroni/files/analyzers/malwarebazaar
 pip download -r requirements.txt -d source-packages
-cd salt/sensoroni/files/analyzers/echotrail
+cd /home/admin/securityonion/salt/sensoroni/files/analyzers/echotrail
 pip download -r requirements.txt -d source-packages
-cd salt/sensoroni/files/analyzers/elasticsearch
+cd /home/admin/securityonion/salt/sensoroni/files/analyzers/elasticsearch
 pip download -r requirements.txt -d source-packages
 
 #remove defaults and soc_sensoroni yaml
