@@ -20,3 +20,4 @@ cp -r defaults.yaml /opt/so/saltstack/local/salt/sensoroni/defaults.yaml
 cp -r soc_sensoroni.yaml /opt/so/saltstack/default/salt/sensoroni/soc_sensoroni.yaml
 cp -r soc_sensoroni.yaml /opt/so/saltstack/local/salt/sensoroni/soc_sensoroni.yaml
 
+so-sensoroni-restart
